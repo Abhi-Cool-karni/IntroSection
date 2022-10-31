@@ -17,7 +17,7 @@
 
 ### What I learned
 
-Managing and developing website from scratch by using simple HTML, CSS, Javascript. With tools like IDE: Visual studio code adn project management tool - JIRA.
+Managing and developing website from scratch by using simple HTML, CSS, Javascript. With tools like IDE: Visual studio code and project management tool - JIRA.
 
 ## Author
 
