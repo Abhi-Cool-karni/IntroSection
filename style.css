@@ -115,7 +115,12 @@ h1 {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
