@@ -21,5 +21,5 @@ Managing and developing website from scratch by using simple HTML, CSS, Javascri
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Abhishek](https://github.com/Abhi-Cool-karni/Abhishekak)
 - Twitter - [@Abhishekkul2000](https://twitter.com/Abhishekkul2000)
