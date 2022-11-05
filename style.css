@@ -47,6 +47,7 @@ li {
 }
 
 input {
+  cursor: pointer;
   border: 0;
   color: var(--Medium_Gray);
   font-weight: 700;
@@ -64,6 +65,41 @@ input {
   /* padding: 10px; */
   height: 39px;
   margin: 0;
+}
+
+/* Features dropdown */
+.features-items {
+  display: none;
+  position: absolute;
+  top: 37px;
+  left: 42px;
+  width: 7em;
+  height: 7em;
+  background: var(--Almost_White);
+  box-shadow: 0 19px 70px -32px black;
+  padding: 4px;
+  border-radius: 9px;
+}
+
+.active {
+  display: block;
+  visibility: visible;
+}
+
+.features-items > li {
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.features-items li > img {
+  margin: 0 7px 0 0;
+}
+
+.span {
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  width: 62px;
 }
 
 /* hero section */

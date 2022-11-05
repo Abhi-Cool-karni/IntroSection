@@ -20,23 +20,31 @@
     <nav>
       <div class="navbar">
         <ul class="ul FCCA">
-          <h2 id="span">Snap</h2>
+          <h2 id="span">snap</h2>
           <!-- Feature btn -->
           <li class="nav-items Features">
             <label for="arrowdown">
-              <input type="button" value="Features" />
+              <input id="btn-feature" type="button" value="Features" />
               <img
                 id="arrowdown"
                 src="./images/icon-arrow-down.svg"
                 alt="arrowDown"
               />
+
+              <!-- Features drop down items -->
+              <ul class="feature_menu features-items" id="features-items">
+                <li class="tcrp todo-list"> <img src="/images/icon-todo.svg"><span class="span"> Todo List</span></li>
+                <li class="tcrp calender"> <img src="/images/icon-calendar.svg"><span class="span"> Calender</span></li>
+                <li class="tcrp reminder"> <img src="/images/icon-reminders.svg"><span class="span"> Reminder</span></li>
+                <li class="tcrp planning"> <img src="/images/icon-planning.svg"><span class="span"> Planning</span></li>
+              </ul>
             </label>
           </li>
 
           <!-- Company btn -->
           <li class="nav-items Company">
             <label for="arrowdown">
-              <input type="button" value="Company" />
+              <input id="btn-cmpny" type="button" value="Company" />
               <img
                 id="arrowdown"
                 src="./images/icon-arrow-down.svg"
@@ -47,36 +55,22 @@
 
           <!-- Careers btn -->
           <li class="nav-items Careers">
-            <label for="arrowdown">
-              <input type="button" value="Careers" />
-              <img
-                id="arrowdown"
-                src="./images/icon-arrow-down.svg"
-                alt="arrowDown"
-              />
-            </label>
+            <input id="btn-career" type="button" value="Careers" />
           </li>
 
           <!-- About -->
           <li class="nav-items About">
-            <label for="arrowdown">
-              <input type="button" value="About" />
-              <img
-                id="arrowdown"
-                src="./images/icon-arrow-down.svg"
-                alt="arrowDown"
-              />
-            </label>
+            <input id="btn-about" type="button" value="About" />
           </li>
         </ul>
 
         <!-- login register -->
         <ul class="ul login-register">
           <li class="nav-items Login">
-            <input type="button" value="Login" />
+            <input id="btn-login" type="button" value="Login" />
           </li>
           <li class="nav-items Register">
-            <input type="button" value="Register" />
+            <input id="btn-register" type="button" value="Register" />
           </li>
         </ul>
       </div>
@@ -116,4 +110,5 @@
         . Coded by <a href="">Abhishek Kulkarni</a>.
     </div>
   </body>
+  <script src="app.js"></script>
 </html>
