@@ -6,8 +6,6 @@ const feature_items = document.querySelectorAll(".feature_menu");
 btn_feature.addEventListener("click", () => {
   feature_items.forEach((item) => {
     item.classList.add("active");
-    // if (item.classList.contains("active") > item.length) {
-    //   item.classList.remove("active");
-    // }
+    item.classList.toggle("hide");
   });
 });

@@ -86,6 +86,11 @@ input {
   visibility: visible;
 }
 
+.hide {
+  display: none;
+  visibility: hidden;
+}
+
 .features-items > li {
   justify-content: space-between;
   font-size: 14px;
