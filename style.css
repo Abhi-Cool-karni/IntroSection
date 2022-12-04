@@ -62,13 +62,13 @@ input {
   border: 2px solid #222;
   border-radius: 8px;
   width: 99px;
-  /* padding: 10px; */
   height: 39px;
   margin: 0;
 }
 
 /* Features dropdown */
-.features-items {
+.features-items,
+.company-items {
   display: none;
   position: absolute;
   top: 37px;
@@ -91,13 +91,23 @@ input {
   visibility: hidden;
 }
 
-.features-items > li {
+.features-items > li,
+.company-items > li {
   justify-content: space-between;
   font-size: 14px;
 }
 
 .features-items li > img {
   margin: 0 7px 0 0;
+}
+
+/* Company feature */
+.company-items {
+  left: 184px;
+  height: 6em;
+  line-height: 20px;
+  box-shadow: 0 26px 103px -24px black;
+  z-index: -2;
 }
 
 .span {
