@@ -1,55 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- displays site properly based on user's device -->
 
-    <title>Intro section with dropdown navigation - Abhishek K</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
 
-  <body>
-    <nav>
-      <div class="navbar">
+  <title>Intro section with dropdown navigation - Abhishek K</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <nav>
+    <div class="navbar">
+      <h2 id="span">snap</h2>
+      <img src="./images/icon-menu.svg" width="30" height="20" alt="menu-icon">
+      <div class="container" id="container" hidden>
         <ul class="ul FCCA">
-          <h2 id="span">snap</h2>
           <!-- Feature btn -->
           <li class="nav-items Features">
             <label for="arrowDown">
               <input id="btn-feature" type="button" value="Features" />
-              <img
-                id="arrowDown"
-                src="./images/icon-arrow-down.svg"
-                alt="arrowDown"
-              />
+              <img id="arrowDown" src="./images/icon-arrow-down.svg" alt="arrowDown" />
 
               <!-- Features drop down items -->
               <ul class="feature_menu features-items items" id="features-items">
                 <li class="tcrp todo-list"> <img src="./images/icon-todo.svg"><span class="span"> Todo List</span></li>
-                <li class="tcrp calender"> <img src="./images/icon-calendar.svg"><span class="span"> Calender</span></li>
-                <li class="tcrp reminder"> <img src="./images/icon-reminders.svg"><span class="span"> Reminder</span></li>
-                <li class="tcrp planning"> <img src="./images/icon-planning.svg"><span class="span"> Planning</span></li>
+                <li class="tcrp calender"> <img src="./images/icon-calendar.svg"><span class="span"> Calender</span>
+                </li>
+                <li class="tcrp reminder"> <img src="./images/icon-reminders.svg"><span class="span"> Reminder</span>
+                </li>
+                <li class="tcrp planning"> <img src="./images/icon-planning.svg"><span class="span"> Planning</span>
+                </li>
               </ul>
             </label>
           </li>
-          
+
           <!-- Company btn -->
           <li class="nav-items Company">
             <label for="arrowdown">
               <input id="btn-cmpny" type="button" value="Company" />
-              <img
-              id="arrowdown"
-              src="./images/icon-arrow-down.svg"
-              alt="arrowDown"
-              />
+              <img id="arrowdown" src="./images/icon-arrow-down.svg" alt="arrowDown" />
 
               <!-- Company drop down items -->
               <ul class="company_menu company-items items" id="company-items">
@@ -71,51 +64,55 @@
           </li>
         </ul>
 
+
         <!-- login register -->
         <ul class="ul login-register">
           <li class="nav-items Login">
-            <input id="btn-login" type="button" value="Login" />
+            <a href="">
+              <input id="btn-login" type="button" value="Login" />
+            </a>
           </li>
           <li class="nav-items Register">
-            <input id="btn-register" type="button" value="Register" />
+            <a href="">
+              <input id="btn-register" type="button" value="Register" />
+            </a>
           </li>
         </ul>
       </div>
-    </nav>
-
-    <!-- Hero section description -->
-    <section class="hero">
-      <main class="hero-description">
-        <h1>Make remote work</h1>
-        <p id="hero-para">
-          Get your team in sync, no matter your location. Streamline processes,
-          create team rituals, and watch productivity soar.
-        </p>
-        <button id="btn-learnMore">Learn more</button>
-        <div class="icons">
-          <img src="./images/client-databiz.svg" alt="client-databiz-icon" />
-          <img
-            src="./images/client-audiophile.svg"
-            alt="client-audiophile-icon"
-          />
-          <img src="./images/client-meet.svg" alt="client-meet-icon" />
-          <img src="./images/client-maker.svg" alt="client-maker-icon" />
-        </div>
-      </main>
-
-      <aside>
-        <img id="img-hero" src="./images/image-hero-desktop.png" alt="hero" />
-      </aside>
-    </section>
-
-    <!-- Footer -->
-    <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"></a>
-        Frontend Mentor 
-        </a>
-        . Coded by <a href="">Abhishek Kulkarni</a>.
     </div>
-  </body>
-  <script src="app.js"></script>
+  </nav>
+
+  <!-- Hero section description -->
+  <section class="hero">
+    <main class="hero-description">
+      <h1>Make remote work</h1>
+      <p id="hero-para">
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <button id="btn-learnMore">Learn more</button>
+      <div class="icons">
+        <img src="./images/client-databiz.svg" alt="client-databiz-icon" />
+        <img src="./images/client-audiophile.svg" alt="client-audiophile-icon" />
+        <img src="./images/client-meet.svg" alt="client-meet-icon" />
+        <img src="./images/client-maker.svg" alt="client-maker-icon" />
+      </div>
+    </main>
+
+    <aside id="aside">
+      <img id="img-hero" src="./images/image-hero-desktop.png" alt="hero" />
+    </aside>
+  </section>
+
+  <!-- Footer -->
+  <div class="attribution">
+    Challenge by
+    <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"></a>
+    Frontend Mentor.
+    </a>
+    Coded by <a href="">Abhishek Kulkarni</a>.
+  </div>
+</body>
+<script src="app.js"></script>
+
 </html>
