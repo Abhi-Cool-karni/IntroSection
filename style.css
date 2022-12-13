@@ -25,8 +25,16 @@ body {
   display: inline-flex;
   flex-flow: row;
   justify-content: space-between;
+  align-items: center;
   margin: 0.5em 0;
   padding: 0 49px;
+}
+
+.container {
+  width: 90vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .ul {
@@ -37,6 +45,7 @@ body {
 .FCCA {
   justify-content: space-between;
   align-items: center;
+  width: 29em;
 }
 
 li {
@@ -73,8 +82,8 @@ input {
   display: none;
   visibility: hidden;
   position: absolute;
-  top: 37px;
-  left: 42px;
+  top: 40px;
+  left: 115px;
   width: 7em;
   height: 7em;
   background: var(--Almost_White);
@@ -115,11 +124,11 @@ input {
 
 /* Company feature */
 .company-items {
-  left: 184px;
+  left: 255px;
+  top: 40px;
   height: 6em;
   line-height: 20px;
   box-shadow: 0 26px 103px -24px black;
-  z-index: -2;
 }
 
 .span {
