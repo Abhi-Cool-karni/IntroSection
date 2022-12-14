@@ -21,10 +21,7 @@ btn_company.addEventListener("click", () => {
 });
 
 menu_btn.addEventListener("click", () => {
-  document.getElementById("container").style.visibility = "visible";
-  menu_btn.classList.toggle("active");
-  menu_btn.style.zIndex = 1;
+  document.getElementById("container").classList.toggle("menu_active");
+  menu_btn.classList.toggle("menu_close");
   menu_btn.src = "./images/icon-close-menu.svg";
 });
-
-// To Add close functionality and background blurry and darkish.

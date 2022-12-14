@@ -102,11 +102,6 @@ input {
   visibility: visible;
 }
 
-.hide {
-  display: none;
-  visibility: hidden;
-}
-
 .rotate {
   transform: rotate(180deg);
 }
@@ -220,6 +215,10 @@ h1 {
     right: 0;
   }
 
+  .menu_active {
+    visibility: visible;
+  }
+
   .navbar {
     margin: 0;
     padding: 0 15px;
@@ -229,7 +228,6 @@ h1 {
   #menu {
     visibility: visible;
     display: block;
-    z-index: 10;
   }
 
   .nav-items {
