@@ -207,7 +207,7 @@ h1 {
     flex-direction: column;
     align-items: flex-start;
     width: 51vw;
-    height: 94vh;
+    height: 89vh;
     z-index: 1;
     background: var(--BlueVoilet);
     position: absolute;
@@ -324,7 +324,7 @@ h1 {
   }
 
   .attribution {
-    font-size: 7px;
+    font-size: 7px; 
     margin: 0 0 5px 0;
     width: 100%;
     position: unset;

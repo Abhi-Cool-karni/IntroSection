@@ -12,8 +12,8 @@
 
 <!-- ### Links -->
 
-<!-- - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+<!-- Solution URL: [Add solution URL here](https://abhi-cool-karni.github.io/IntroSection/) -->
+- Live Site URL: [Intro section with dropdown navigation solution](https://abhi-cool-karni.github.io/IntroSection/)
 
 ### What I learned
 
