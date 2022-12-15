@@ -5,7 +5,10 @@ const arrow_btn_company = document.getElementById("arrowdown");
 const btn_company = document.getElementById("btn-cmpny");
 const company_items = document.querySelectorAll(".company_menu");
 const menu_btn = document.getElementById("menu");
+const close_menu = "./images/icon-close-menu.svg";
+const active = "./images/icon-menu.svg";
 
+// .Feature Arrow function
 btn_feature.addEventListener("click", () => {
   feature_items.forEach((item) => {
     item.classList.toggle("active");
@@ -13,6 +16,7 @@ btn_feature.addEventListener("click", () => {
   });
 });
 
+// .Company Arrow function
 btn_company.addEventListener("click", () => {
   company_items.forEach((item) => {
     item.classList.toggle("active");
@@ -20,8 +24,12 @@ btn_company.addEventListener("click", () => {
   });
 });
 
-menu_btn.addEventListener("click", () => {
+// Menu close
+menu_btn.addEventListener("click", (clicked) => {
   document.getElementById("container").classList.toggle("menu_active");
-  menu_btn.classList.toggle("menu_close");
-  menu_btn.src = "./images/icon-close-menu.svg";
+  menu_btn.src = active;
+
+  if (document.getElementById("container").classList.contains("menu_active")) {
+    menu_btn.src = close_menu;
+  }
 });
